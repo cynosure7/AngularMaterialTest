@@ -7,7 +7,15 @@
     <groupId>com.helloowen.angularmaterialtest</groupId>
     <artifactId>AngularMaterialTest</artifactId>
     <version>1.0-SNAPSHOT</version>
+    <properties>
+        <spring.version>4.0.5.RELEASE</spring.version>
+    </properties>
     <dependencies>
+        <dependency>
+            <groupId>com.helloowen.freshwater</groupId>
+            <artifactId>freshwater-framework</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
         <dependency>
             <groupId>info.cukes</groupId>
             <artifactId>cucumber-core</artifactId>
@@ -22,10 +30,29 @@
         </dependency>
         <dependency>
             <groupId>info.cukes</groupId>
+            <artifactId>cucumber-core</artifactId>
+            <version>1.2.0</version>
+        </dependency>
+        <dependency>
+            <groupId>info.cukes</groupId>
+            <artifactId>cucumber-java</artifactId>
+            <version>1.2.0</version>
+        </dependency>
+        <dependency>
+            <groupId>info.cukes</groupId>
             <artifactId>cucumber-junit</artifactId>
-            <version>1.1.5</version>
+            <version>1.2.0</version>
+        </dependency>
+        <dependency>
+            <groupId>org.hamcrest</groupId>
+            <artifactId>hamcrest-all</artifactId>
+            <version>1.3</version>
+        </dependency>
+        <dependency>
+            <groupId>org.testng</groupId>
+            <artifactId>testng</artifactId>
+            <version>6.8</version>
             <scope>test</scope>
         </dependency>
     </dependencies>
-
 </project>
