@@ -1,6 +1,5 @@
 package com.helloowen.angular.material.test.steps;
 
-import com.helloowen.freshwater.Browser;
 import com.helloowen.angular.material.test.spring.AppConfiguration;
 import cucumber.api.PendingException;
 import cucumber.api.java.en.Given;
@@ -8,12 +7,12 @@ import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 import org.springframework.test.context.ContextConfiguration;
 
-@ContextConfiguration(classes= AppConfiguration.class)
+@ContextConfiguration(classes = AppConfiguration.class)
 public class MyStepdefs {
 
     @Given("^I visit a page with url \"([^\"]*)\"$")
     public void I_visit_a_page_with_url(String url) throws Throwable {
-//        Browser.getBrowser().get(url);
+        //        Browser.getBrowser().get(url);
     }
 
     @When("^I click input field$")

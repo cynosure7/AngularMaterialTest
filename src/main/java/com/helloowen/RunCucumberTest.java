@@ -7,7 +7,7 @@ import org.junit.runner.RunWith;
 import org.springframework.test.context.ContextConfiguration;
 
 @RunWith(Cucumber.class)
-@CucumberOptions(format = { "pretty", "html:target/cucumber-report", "json:target/cucumber.json" }, features = "src/main/resources/features/")
-@ContextConfiguration(classes= AppConfiguration.class)
+@CucumberOptions(format = {"pretty", "html:target/cucumber-report", "json:target/cucumber.json"}, features = "src/main/resources/features/")
+@ContextConfiguration(classes = AppConfiguration.class)
 public class RunCucumberTest {
 }
